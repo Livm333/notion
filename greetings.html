@@ -59,7 +59,7 @@ body{
         document.getElementById('lbl').style.color = "Crimson";
     };
     var day = today.getDate();
-    var month = today.getMonth();
+    var month = today.getMonth()+1;
     
     if (day == 31 && month == 12){
         greet = 'Happy New Year!!';
