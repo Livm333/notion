@@ -60,11 +60,13 @@ body{
     };
     var day = today.getDate();
     var month = today.getMonth();
+    
     if (day == 31 && month == 12){
+        greet = 'Happy New Year!!"
         document.getElementById('lbl').innerHTML =
         greet+=`<div id="date"> It's ${date}</div>`;
-        greet = 'Happy New Year!!"
-    };
+        
+    }
     else 
     {
         document.getElementById('lbl').innerHTML =
