@@ -58,7 +58,9 @@ body{
         document.getElementById('lbl').style.background = "LavenderBlush";
         document.getElementById('lbl').style.color = "Crimson";
     };
-    if (today.getDate() == 31 && today.getMonth() == 12){
+    var day = today.getDate();
+    var month = today.getMonth();
+    if (day == 31 && month == 12){
         document.getElementById('lbl').innerHTML =
         greet+=`<div id="date"> It's ${date}</div>`;
         greet = 'Happy New Year!!"
