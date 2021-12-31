@@ -53,6 +53,8 @@ body{
     }
     else if (hrs >= 17 && hrs <= 24)
         greet = 'Good Evening, Livia!';
+        document.getElementById('lbl').style.background = "#F1D6FF";
+        document.getElementById('lbl').style.color = "#9032BF";
     else if (hrs < 6){
         greet = 'PLEASE GO TO SLEEP LIVIA!';
         document.getElementById('lbl').style.background = "LavenderBlush";
